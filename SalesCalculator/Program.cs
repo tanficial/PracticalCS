@@ -11,6 +11,13 @@ internal class Program {
         foreach (var s in sales) {
             Console.WriteLine($"{s.ShopName} {s.ProductCategory} {s.Amount}");
         }
+
+        SalesCounter salesCounter = new SalesCounter(sales);
+
+        var amountPerStore = salesCounter.GetPerStoreSales();
+        foreach (KeyValuePair<string, int> obj in amountPerStore) {
+            Console.WriteLine($"{obj.Key} {obj.Value}");
+        }
     }
 
     // File.ReadAllLines : 작은 파일에만 쓰자. 큰 파일에는 못쓰는 함수
