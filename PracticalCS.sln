@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPBasic", "OOPBasic\OOPBas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceConverter", "DistanceConverter\DistanceConverter.csproj", "{75089EAC-4569-4A32-B45D-5BD77F069138}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesCalculator", "SalesCalculator\SalesCalculator.csproj", "{4263EF1F-79BF-4757-BCE5-3237FE09688B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{75089EAC-4569-4A32-B45D-5BD77F069138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75089EAC-4569-4A32-B45D-5BD77F069138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75089EAC-4569-4A32-B45D-5BD77F069138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4263EF1F-79BF-4757-BCE5-3237FE09688B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4263EF1F-79BF-4757-BCE5-3237FE09688B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4263EF1F-79BF-4757-BCE5-3237FE09688B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4263EF1F-79BF-4757-BCE5-3237FE09688B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
