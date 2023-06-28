@@ -3,7 +3,7 @@
 internal class Program {
     private static void Main(string[] args) {
         var numbers = new[] { 5, 3, 9, 6, 7, 5, 8, 1, 0, 5, 10, 4, };
-        var count = Count(numbers, (int n) => { return n % 2 == 0; });
+        var count = Count(numbers, n => n % 2 == 0);
         Console.WriteLine(count);
     }
 
