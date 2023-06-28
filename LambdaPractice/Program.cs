@@ -2,12 +2,12 @@
 
 internal class Program {
     private static void Main(string[] args) {
-        var count = Count(5);
+        var numbers = new[] { 5, 3, 9, 6, 7, 5, 8, 1, 0, 5, 10, 4, };
+        var count = Count(numbers, 5);
         Console.WriteLine(count);
     }
 
-    static public int Count(int num) {
-        var numbers = new[] { 5, 3, 9, 6, 7, 5, 8, 1, 0, 5, 10, 4, };
+    static public int Count(int[] numbers, int num) {
         int count = 0;
         foreach (var n in numbers) {
             if (n == num) {
