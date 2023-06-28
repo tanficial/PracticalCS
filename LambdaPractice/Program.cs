@@ -1,0 +1,9 @@
+﻿namespace LambdaPractice;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
