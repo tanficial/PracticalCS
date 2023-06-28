@@ -3,15 +3,14 @@
 internal class Program {
     private static void Main(string[] args) {
         var numbers = new[] { 5, 3, 9, 6, 7, 5, 8, 1, 0, 5, 10, 4, };
-        Predicate<int> judge = (int n) => {
+        var count = Count(numbers, (int n) => {
             if(n % 2 == 0) {
                 return true;
             }
             else{
                 return false;
             }
-        };
-        var count = Count(numbers, judge);
+        });
         Console.WriteLine(count);
     }
 
